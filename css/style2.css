@@ -1,0 +1,142 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+html {
+    background-image: url(https://riostar.tur.br/wp-content/uploads/2020/05/4.jpg);
+    border-image-repeat: space;
+    background-size: cover;
+    height: auto;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: aquamarine;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border: #baf7ff;
+    border-style: double;
+    padding:25px;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: aquamarine;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea, input[type="tel"], input[type="date"] {
+    padding: 0.2em;
+    border: 1px solid aquamarine;
+    box-shadow: 2px 2px 2px rgba(6, 28, 228, 0.178);
+    display: block;
+}
+
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #baf7ff;
+}
+
+#botaolimpar {
+    font-size: 1.1em;
+    background: #baf7ff;
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(4, 31, 31);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgb(10, 238, 238);
+    position: relative;
+    margin-left: 300px;
+    transform: translate(-50%, -50%);
+}
+
+#botaoenviar {
+    font-size: 1.1em;
+    background: #baf7ff;
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(4, 31, 31);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgb(10, 238, 238);
+    position: relative;
+    margin-left: 500px;
+    transform: translate(-50%, -50%);
+}
+
+#botaoenviar:hover {
+    background: rgb(10, 238, 238);
+    box-shadow: inset 2px 2px 2px rgb(10, 238, 238);
+    text-shadow: none;
+}
+
+#botaolimpar:hover{
+    background: rgb(10, 238, 238);
+    box-shadow: inset 2px 2px 2px rgb(10, 238, 238);
+    text-shadow: none;
+}
+
+.button1 {
+    font-size: 1.1em;
+    background: #baf7ff;
+    border: 0;
+    margin-bottom: 0.5em;
+    color: rgb(4, 31, 31);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgb(10, 238, 238);
+    position: relative;
+    margin-left: 600px;
+    transform: translate(-50%, -50%);
+}
+
+.button1:hover {
+    background: rgb(10, 238, 238);
+    box-shadow: inset 2px 2px 2px rgb(10, 238, 238);
+    text-shadow: none;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color:aquamarine;
+    
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: aquamarine;
+    
+}
+
+fieldset {
+    border:0;
+}
+
+
+#check {
+    display: inline-block;
+}
